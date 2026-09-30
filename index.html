@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Duckiller</title>
+<style>
+  body {
+    background: #ffffff;
+    color: #111111;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 40px;
+    line-height: 2;
+  }
+  .hex {
+    word-break: break-all;
+  }
+  .morse {
+    letter-spacing: 4px;
+  }
+  .hidden {
+    color: #ffffff;   /* invisible on white */
+    user-select: text;
+  }
+  ::selection {
+    background: #000000;
+    color: #00ff00;   /* shows up when selected */
+  }
+</style>
+</head>
+<body>
+
+  <p class="hex">4475636B696C6C696E672061776179206875683F206D616279206973203230207965617273206265666F7265206C696B652069747320323020616E64203020736F6D6574686E67206265747765656E3F2069646B206A75737420646F</p>
+
+  <p class="morse">.-. --- ..- .-. .. -. --.</p>
+
+  <p class="hidden">67 43 43 32 117 115 101 100 32 54 48 32 102 112 115 32 111 110 32 112 111 116 101 116 111 115 32 97 110 100 32 106 117 115 116 32 73 67 85</p>
+
+</body>
+</html>
